@@ -1,7 +1,7 @@
 # Oracle ASM Diskgroup Usage Report
 
 ## Overview
-This repository contains a shell script that generates a usage report for Oracle ASM diskgroups, with a special focus on FRA / recovery diskgroups (for example `+RECO`, `+FRA`, `+RECOC1`). The report shows total space, used space, free space and usage percentage, helping DBAs monitor capacity and plan growth in Exadata, ExaCC and on-prem environments.
+This repository contains a shell script that generates a usage report for Oracle ASM diskgroups, with a special focus on FRA / recovery diskgroups (for example `+RECO`, `+FRA`). The report shows total space, used space, free space and usage percentage, helping DBAs monitor capacity and plan growth in Exadata, ExaCC and on-prem environments.
 
 The script is designed to be simple, portable and easy to integrate with cron, monitoring tools or email notifications.
 

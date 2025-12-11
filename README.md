@@ -62,8 +62,8 @@ The core logic of the script is based on a query similar to:
 5. Example output:
 
        DISKGROUP|TOTAL_GB|USED_GB|FREE_GB|PCT_USED
-       DATAC1   | 914.00 | 580.15| 333.85| 63.49
-       RECOC1   | 228.00 |  25.88| 202.12| 11.35
+       DATA   | 914.00 | 580.15| 333.85| 63.49
+       RECO   | 228.00 |  25.88| 202.12| 11.35
 
 This output can be sent by email, ingested by monitoring tools or stored for capacity trending.
 
